@@ -15,7 +15,7 @@ When you import the project in the accompanying practical material into Eclipse,
 
 *If the version of Eclipse on your computer does not have a copy of JUnit inbuilt, or there are problems with its version, follow the instructions in the remaining of this section.*
 
-You will need __both__ a `junit.jar` and `hamcrest-core.jar`, from [this repository](https://github.com/junit-team/junit/wiki/Download-and-Install) where you can find download packages of multiple different versions. Specifically, you will need the 'jar' download of [JUnit 4.11](http://search.maven.org/remotecontent?filepath=junit/junit/4.11/junit-4.11.jar) and [Hamcrest Core 1.3](http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar).
+You will need __both__ a `junit.jar` and `hamcrest-core.jar`, from [this repository](https://github.com/junit-team/junit/wiki/Download-and-Install) where you can find download packages of multiple different versions. Specifically, you will need the 'jar' download of [JUnit 4.12](http://search.maven.org/remotecontent?filepath=junit/junit/4.12/junit-4.12.jar) and [Hamcrest Core 1.3](http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar).
 Save these files somewhere convenient - you will need them for future practicals and assignments.
 You can also get the Javadocs jar to have a copy of the documentation, but you can view this online [here](http://junit.sourceforge.net/javadoc/).
 
@@ -24,7 +24,7 @@ After you have imported this practical's project into Eclipse, you will need to 
 1. Right click on the project `prac03-unittest` in the `Package Explorer` panel and click `Properties` at the bottom of the pop-up menu.
 2. Select the `Java Build Path` section of the project properties.
 3. Select the `Libraries` tab.
-4. Click the `Add External JARs` button and select your downloaded `junit-4.11.jar` and `hamcrest-core-1.3.jar` (either at the same time, or repeat the adding procedure).
+4. Click the `Add External JARs` button and select your downloaded `junit-4.12.jar` and `hamcrest-core-1.3.jar` (either at the same time, or repeat the adding procedure).
 
 ![Add External JARs](imgs/addexternal.png "Add External JARs")
 
