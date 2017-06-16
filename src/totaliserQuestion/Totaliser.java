@@ -49,7 +49,7 @@ public class Totaliser {
 	/**
 	 * Reset the sum to zero.
 	 */
-	public void reset() {
+	public static void reset() {
 		total = 0;
 	}
 
@@ -59,7 +59,7 @@ public class Totaliser {
 	 * 
 	 * @return the sum of the numbers entered since resetting
 	 */
-	public int getSum() {
+	public static int getSum() {
 		return total;
 	}
 
@@ -68,8 +68,8 @@ public class Totaliser {
 	 * 
 	 * @param newValue the new value to be added to the sum
 	 */
-	public void enterValue(int newValue) {
-		total = newValue;
+	public static void enterValue(int newValue) {
+		total += newValue;
 	}
 
 }

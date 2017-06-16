@@ -43,7 +43,7 @@ import java.lang.Exception;
 
 public class AllSameB {
 
-	public boolean same(int[] naturals) throws Exception {
+	public static boolean same(int[] naturals) throws Exception {
 		int first = naturals[0];
 		for (int index = 0; index < naturals.length - 1; index++)
 			if (naturals[index] != first)

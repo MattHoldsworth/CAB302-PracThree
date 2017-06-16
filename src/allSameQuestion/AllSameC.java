@@ -43,7 +43,7 @@ import java.lang.Exception;
 
 public class AllSameC {
 
-	public boolean same(int[] naturals) throws Exception {
+	public static boolean same(int[] naturals) throws Exception {
 		if (naturals.length == 0)
 			throw new Exception("No numbers to compare");
 		for (int number: naturals)
