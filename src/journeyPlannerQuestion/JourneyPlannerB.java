@@ -6,6 +6,7 @@ package journeyPlannerQuestion;
 
 import static java.lang.Math.abs;
 
+
 /*
  * 
  * 
@@ -55,7 +56,7 @@ public class JourneyPlannerB {
 	}
 
 	public boolean setOrigin(int X, int Y) {
-		if (0 <= X && X < 10 && 0 <= Y && Y < 10) {
+		if (0 <= X && X <= 10 && 0 <= Y && Y <= 10) {
 			originX = X; originY = Y;
 			return true;
 		} else
@@ -71,7 +72,7 @@ public class JourneyPlannerB {
 	}
 
 	public int journeyTime() {
-		return (abs(destinationX - originX) + (destinationY - originY))
+		return (abs(destinationX - originX) + abs(destinationY - originY))
 		* minutesPerBlock;	
 	}
 
